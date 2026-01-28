@@ -1,0 +1,49 @@
+In-Scope Features
+
+User Authentication & Authorization
+
+Secure login for administrators and authorized staff
+
+Role-based access control
+
+Donor Management
+
+Donor registration and profile management
+
+Maintain donor details such as blood group, contact information, and donation history
+
+Track donor eligibility and last donation date
+
+Blood Inventory Management
+
+Real-time tracking of available blood units
+
+Categorization by blood group and quantity
+
+Monitoring of blood expiration dates
+
+Blood Request Management
+
+Allow hospitals or authorized users to request blood units
+
+Approval and allocation of blood based on availability
+
+Priority handling for emergency requests
+
+Search & Reporting
+
+Search blood availability by blood group
+
+Generate basic reports on donors, inventory, and blood usage
+
+Notification System
+
+Notifications to donors for blood donation requests
+
+Alerts for low stock levels and nearing expiration dates
+
+Data Management & Security
+
+Centralized database for storing all records
+
+Secure handling of sensitive donor and patient-related data
