@@ -1,0 +1,93 @@
+Project Purpose
+
+The purpose of this project is to design and develop a Blood Bank Management System that automates donor management, blood inventory tracking, and blood request processing. The system aims to reduce manual errors, improve response time during emergencies, and ensure efficient utilization of blood resources.
+
+Project Objectives
+
+To develop a centralized system for managing blood bank operations
+
+To maintain accurate and real-time blood inventory records
+
+To streamline blood donor registration and management
+
+To enable quick processing of blood requests during emergencies
+
+To reduce blood wastage due to poor tracking and expiration
+
+Project Scope
+
+In-Scope:
+
+Donor registration and management
+
+Blood inventory tracking
+
+Blood request and allocation
+
+User authentication and role-based access
+
+Reporting and notifications
+
+Out-of-Scope:
+
+Mobile application development
+
+Online payment processing
+
+Integration with national blood bank systems
+
+Logistics and transportation tracking
+
+| Team Member  | Role               |
+| ------------ | ------------------ |
+| C. Sai Pavan | Project Manager    |
+| G. Harika    | Documentation Lead |
+| K. Wayiz     | Lead Developer     |
+| B. Akash     | QA Lead            |
+
+| Stakeholder               | Role                                     |
+| ------------------------- | ---------------------------------------- |
+| Blood Bank Administrators | Primary system users and decision makers |
+| Hospital Staff            | Request blood and check availability     |
+| Blood Donors              | Provide blood and receive notifications  |
+| Project Guide / Faculty   | Review and evaluation                    |
+| Development Team          | Design, development, and testing         |
+Assumptions
+
+Users have access to the internet and a web browser
+
+Data entered into the system is accurate
+
+Project will be completed within the academic schedule
+
+Constraints
+
+Limited development time
+
+Academic project resources only
+
+Web-based implementation
+
+Risks
+
+Incomplete or incorrect data entry
+
+Limited user adoption due to lack of training
+
+Time constraints affecting feature completeness
+
+Success Criteria
+
+The project will be considered successful if:
+
+All functional and non-functional requirements are met
+
+The system runs without major defects
+
+Core features operate as expected
+
+Documentation is complete and accurate
+
+Approval
+
+This Project Charter formally authorizes the Blood Bank Management System project and provides high-level direction for planning, execution, and evaluation.
