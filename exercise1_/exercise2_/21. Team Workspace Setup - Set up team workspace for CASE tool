@@ -1,0 +1,74 @@
+Objective
+
+To set up a shared team workspace for collaborative modeling using a CASE tool for the Blood Bank Management System project.
+
+Selected CASE Tool
+
+StarUML
+
+Workspace Setup Description
+1. Workspace Creation
+
+A centralized project workspace was created using StarUML.
+
+A new project file named Blood_Bank_Management_System.mdj was created.
+
+The project file contains all UML diagrams related to the system.
+
+2. Team Collaboration Setup
+
+The project workspace was shared among team members using a common platform such as:
+
+Google Drive / GitHub / Local Shared Folder
+
+All team members were given access to the workspace file to view and update diagrams.
+
+3. Version Control Practice
+
+Team members follow a controlled update process:
+
+Only one member edits the StarUML file at a time
+
+After modification, the updated file is shared with the team
+
+File versions are saved with date or version numbers to avoid conflicts
+
+Example:
+BBMS_StarUML_v1.mdj
+BBMS_StarUML_v2.mdj
+
+4. Roles in Workspace Usage
+
+Lead Developer (K. Wayiz): Creates and updates class and sequence diagrams
+
+Documentation Lead (G. Harika): Exports diagrams and includes them in SRS
+
+QA Lead (B. Akash): Reviews diagrams for correctness and completeness
+
+Project Manager (C. Sai Pavan): Coordinates updates and approves changes
+
+5. Diagram Organization
+
+The workspace contains:
+
+Use Case Diagrams
+
+Class Diagrams
+
+Sequence Diagrams
+
+Each diagram is named clearly and stored within the same project file.
+
+Tools & Environment
+
+CASE Tool: StarUML
+
+Collaboration Platform: Google Drive / GitHub
+
+Operating System: Windows
+
+File Format: .mdj
+
+Conclusion
+
+A shared team workspace was successfully set up using the CASE tool. This enabled effective collaboration, consistent diagram development, and smooth integration of UML artifacts into the project documentation.
