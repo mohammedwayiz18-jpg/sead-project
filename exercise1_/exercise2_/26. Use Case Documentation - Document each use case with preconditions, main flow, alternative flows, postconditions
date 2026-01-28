@@ -1,0 +1,237 @@
+UC-01: User Login
+
+Primary Actor: Administrator / Hospital Staff / Authorized Staff / Donor
+
+Preconditions
+
+User is registered in the system
+
+Valid login credentials are available
+
+Main Flow
+
+User enters username and password
+
+System validates credentials
+
+User is authenticated successfully
+
+System redirects user to dashboard
+
+Alternative Flow
+
+2a. Invalid credentials entered
+
+System displays error message
+
+User is asked to retry
+
+Postconditions
+
+User is logged into the system
+
+Access is granted based on role
+
+UC-02: Register Blood Donor
+
+Primary Actor: Administrator
+
+Preconditions
+
+Administrator is logged in
+
+Main Flow
+
+Administrator selects “Register Donor”
+
+Enters donor personal and medical details
+
+System validates entered data
+
+Donor record is saved successfully
+
+Alternative Flow
+
+3a. Missing or invalid details
+
+System displays validation error
+
+Postconditions
+
+New donor is registered in the system
+
+UC-03: Update Donor Information
+
+Primary Actor: Administrator / Authorized Staff
+
+Preconditions
+
+User is logged in
+
+Donor record exists
+
+Main Flow
+
+User searches for donor
+
+Selects donor record
+
+Updates required details
+
+System saves updated information
+
+Alternative Flow
+
+1a. Donor not found
+
+System displays message
+
+Postconditions
+
+Donor details are updated
+
+UC-04: Manage Blood Inventory
+
+Primary Actor: Administrator / Authorized Staff
+
+Preconditions
+
+User is logged in
+
+Main Flow
+
+User selects inventory management option
+
+Adds or updates blood unit details
+
+System updates inventory records
+
+Expiry dates are monitored
+
+Alternative Flow
+
+2a. Invalid quantity or data
+
+System displays error
+
+Postconditions
+
+Blood inventory is updated accurately
+
+UC-05: Search Blood Availability
+
+Primary Actor: Hospital Staff
+
+Preconditions
+
+Hospital staff is logged in
+
+Main Flow
+
+Staff selects search option
+
+Enters required blood group
+
+System displays availability details
+
+Alternative Flow
+
+3a. Blood not available
+
+System displays “Not Available” message
+
+Postconditions
+
+Blood availability information is shown
+
+UC-06: Request Blood
+
+Primary Actor: Hospital Staff
+
+Preconditions
+
+User is logged in
+
+Blood availability is checked
+
+Main Flow
+
+Hospital staff submits blood request
+
+Enters patient and blood details
+
+System records request
+
+Request status is set to “Pending”
+
+Alternative Flow
+
+2a. Invalid request details
+
+System displays error
+
+Postconditions
+
+Blood request is successfully submitted
+
+UC-07: Approve / Reject Blood Request
+
+Primary Actor: Administrator
+
+Preconditions
+
+Administrator is logged in
+
+Blood request exists
+
+Main Flow
+
+Admin views pending requests
+
+Checks inventory availability
+
+Approves or rejects request
+
+System updates request status
+
+Alternative Flow
+
+2a. Insufficient blood stock
+
+Request is rejected
+
+Postconditions
+
+Request status is updated
+
+Inventory is adjusted if approved
+
+UC-08: Send Notifications
+
+Primary Actor: System / Administrator
+
+Preconditions
+
+Relevant event occurs (low stock, emergency, approval)
+
+Main Flow
+
+System detects triggering event
+
+Notification message is generated
+
+Message is sent to users/donors
+
+Alternative Flow
+
+3a. Notification failure
+
+System logs error
+
+Postconditions
+
+Users are notified successfully
+
+Conclusion
+
+This use case documentation clearly defines system behavior through structured flows, ensuring clarity in functionality and serving as a strong foundation for design and testing.
