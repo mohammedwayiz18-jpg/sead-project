@@ -1,0 +1,10 @@
+| Stakeholder ID | Stakeholder Name / Group               | Role      | Interests                                                      | Influence | Communication Method        |
+| -------------- | -------------------------------------- | --------- | -------------------------------------------------------------- | --------- | --------------------------- |
+| STK-01         | Blood Bank Administrators              | Primary   | Accurate inventory management, donor tracking, reduced wastage | High      | Meetings, System Reports    |
+| STK-02         | Hospital Staff / Medical Professionals | Primary   | Real-time blood availability, quick request processing         | High      | System Notifications, Email |
+| STK-03         | Blood Donors                           | Primary   | Easy registration, donation history, alerts                    | Medium    | Web Portal, SMS/Email       |
+| STK-04         | Patients                               | Secondary | Timely access to safe blood                                    | Medium    | Indirect (via hospitals)    |
+| STK-05         | Healthcare Organizations               | Secondary | Efficient coordination and operations                          | Medium    | Reports, Meetings           |
+| STK-06         | Government & Regulatory Bodies         | Secondary | Compliance with safety and legal standards                     | Low       | Documentation, Audits       |
+| STK-07         | Project Guide / Faculty                | Secondary | Project quality, learning outcomes                             | Low       | Reviews, Presentations      |
+| STK-08         | Development & Maintenance Team         | Internal  | System stability, scalability, maintenance ease                | Medium    | Meetings, Version Control   |
