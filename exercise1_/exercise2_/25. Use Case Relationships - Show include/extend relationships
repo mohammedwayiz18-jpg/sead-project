@@ -1,0 +1,8 @@
+| Base Use Case          | Relationship | Related Use Case          |
+| ---------------------- | ------------ | ------------------------- |
+| Register Blood Donor   | <<include>>  | User Login                |
+| Manage Blood Inventory | <<include>>  | User Login                |
+| Request Blood          | <<include>>  | Search Blood Availability |
+| Request Blood          | <<extend>>   | Emergency Blood Request   |
+| Approve Blood Request  | <<extend>>   | Send Notification         |
+| Manage Inventory       | <<extend>>   | Expiry Alert              |
