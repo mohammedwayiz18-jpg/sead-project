@@ -1,0 +1,15 @@
+14.1 Blood Bank Administrator Use Case Description
+
+The Blood Bank Administrator is the primary actor responsible for managing the entire system. The administrator logs into the system using secure credentials. After successful login, the administrator can register new blood donors, update donor information, and manage user accounts. The administrator also manages blood inventory by adding new blood units, updating stock levels, and monitoring blood expiration dates. Additionally, the administrator reviews blood requests submitted by hospitals, approves or rejects requests based on availability, generates reports, and sends notifications related to low stock or urgent requirements.
+
+14.2 Hospital Staff Use Case Description
+
+The Hospital Staff actor interacts with the system mainly for blood availability and requests. Hospital staff log into the system and search for available blood based on required blood groups. They can submit blood requests for patients during emergencies or planned treatments. The system allows hospital staff to view the status of their blood requests, such as approved, pending, or rejected.
+
+14.3 Authorized Staff Use Case Description
+
+The Authorized Staff assists in daily operational tasks. After logging into the system, authorized staff can add newly collected blood units, update inventory details, and view current stock levels. This actor ensures that blood inventory information is accurate and up to date, supporting smooth system operation.
+
+14.4 Blood Donor Use Case Description
+
+The Blood Donor actor interacts with the system to manage personal donation-related information. Donors can register and log into the system to view their donation history. They receive notifications when blood donation is required or when they become eligible for donation again. This interaction helps improve donor engagement and timely blood collection.
