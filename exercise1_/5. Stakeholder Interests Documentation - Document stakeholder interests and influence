@@ -1,0 +1,10 @@
+| Stakeholder                                | Interests                                                                                               | Influence Level |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------------- | --------------- |
+| **Blood Bank Administrators**              | Accurate blood inventory management, donor tracking, reduced wastage, quick response during emergencies | **High**        |
+| **Hospital Staff / Medical Professionals** | Real-time availability of required blood groups, fast processing of blood requests                      | **High**        |
+| **Blood Donors**                           | Easy registration, donation history tracking, timely notifications                                      | **Medium**      |
+| **Patients**                               | Timely access to safe blood for treatment and emergencies                                               | **Medium**      |
+| **Healthcare Organizations**               | Efficient coordination between hospitals and blood banks, improved operational efficiency               | **Medium**      |
+| **Government & Regulatory Bodies**         | Compliance with blood safety standards, proper record maintenance                                       | **Low**         |
+| **Project Guide / Faculty**                | Successful completion of project, proper documentation, learning outcomes                               | **Low**         |
+| **System Developers & Maintenance Team**   | System stability, ease of maintenance, scalability                                                      | **Medium**      |
