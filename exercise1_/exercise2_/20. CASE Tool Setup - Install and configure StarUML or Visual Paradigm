@@ -1,0 +1,86 @@
+Tool Name
+
+StarUML
+
+Installation Steps
+
+Open a web browser and go to the official StarUML website
+
+Download the installer suitable for your operating system (Windows/Linux/macOS)
+
+Run the installer and follow on-screen instructions
+
+Complete the installation process
+
+Configuration Steps
+
+Launch StarUML after installation
+
+Create a new project
+
+Select UML 2 as the modeling language
+
+Save the project with the name
+Blood_Bank_Management_System.mdj
+
+Use the toolbox to create:
+
+Use Case Diagram
+
+Class Diagram
+
+Sequence Diagram
+
+Usage in Project
+
+StarUML is used to design and document UML diagrams included in the SRS appendices.
+
+Option 2: Visual Paradigm – Installation & Configuration
+Tool Name
+
+Visual Paradigm (Community Edition)
+
+Installation Steps
+
+Visit the official Visual Paradigm website
+
+Download the Community Edition
+
+Run the installer and complete the setup process
+
+Launch the application after installation
+
+Configuration Steps
+
+Create a new project
+
+Choose UML Project
+
+Name the project as
+Blood Bank Management System
+
+Configure diagram types such as:
+
+Use Case Diagram
+
+Class Diagram
+
+Activity Diagram
+
+Usage in Project
+
+Visual Paradigm is used to model UML diagrams and export them for documentation.
+
+System Requirements
+
+Operating System: Windows 10 or above
+
+RAM: Minimum 4 GB
+
+Disk Space: Minimum 500 MB
+
+Internet: Required for download
+
+Conclusion
+
+The CASE tool (StarUML / Visual Paradigm) was successfully installed and configured. It will be used throughout the project to create UML diagrams that support system analysis and design of the Blood Bank Management System.
