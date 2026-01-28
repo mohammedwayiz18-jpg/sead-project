@@ -1,0 +1,67 @@
+Purpose of Scope Boundaries
+
+The scope boundaries define the limits of the Blood Bank Management System project by clearly specifying what is included and excluded. This helps prevent scope creep and ensures clarity among stakeholders.
+
+In-Scope (Included)
+
+The system will include the following:
+
+Secure user authentication and role-based access
+
+Donor registration and donor profile management
+
+Blood inventory management by blood group and quantity
+
+Tracking of blood stock expiration dates
+
+Blood request and allocation management
+
+Emergency blood request handling
+
+Search functionality for blood availability
+
+Basic reporting (donors, inventory, usage)
+
+Notifications for low stock levels and donor reminders
+
+Centralized and secure database management
+
+Out-of-Scope (Excluded)
+
+The system will not include the following:
+
+Mobile application development (Android/iOS)
+
+Online payment or billing systems
+
+Integration with laboratory blood testing equipment
+
+National-level blood bank or government databases
+
+Blood transportation and logistics tracking
+
+AI/ML-based prediction and advanced analytics
+
+Ambulance or emergency service integration
+
+Multi-language and voice-based interfaces
+
+Assumptions
+
+Users have basic internet access and web browser support
+
+Authorized users will operate the system responsibly
+
+Data entered into the system is accurate and verified by staff
+
+Constraints
+
+Limited project duration and academic timeline
+
+Development resources restricted to student team
+
+Web-based implementation using standard tools
+
+Conclusion
+
+This scope boundaries document clearly defines the functional limits of the Blood Bank Management System and ensures focused development aligned with project goals and constraints.
