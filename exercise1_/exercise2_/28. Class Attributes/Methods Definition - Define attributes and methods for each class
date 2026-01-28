@@ -1,0 +1,185 @@
+1. User (Base Class)
+
+Attributes:
+
+userId
+
+username
+
+password
+
+role
+
+Methods:
+
+login()
+
+logout()
+
+validateUser()
+
+2. Administrator (Derived from User)
+
+Attributes:
+
+adminId
+
+Methods:
+
+registerDonor()
+
+approveBloodRequest()
+
+rejectBloodRequest()
+
+generateReport()
+
+manageUsers()
+
+3. HospitalStaff (Derived from User)
+
+Attributes:
+
+staffId
+
+hospitalName
+
+Methods:
+
+searchBloodAvailability()
+
+requestBlood()
+
+viewRequestStatus()
+
+4. AuthorizedStaff (Derived from User)
+
+Attributes:
+
+staffId
+
+Methods:
+
+updateDonorDetails()
+
+addBloodUnits()
+
+updateInventory()
+
+5. Donor
+
+Attributes:
+
+donorId
+
+donorName
+
+bloodGroup
+
+contactNumber
+
+lastDonationDate
+
+eligibilityStatus
+
+Methods:
+
+viewDonationHistory()
+
+updateContactDetails()
+
+checkEligibility()
+
+6. BloodInventory
+
+Attributes:
+
+inventoryId
+
+bloodGroup
+
+quantity
+
+expiryDate
+
+Methods:
+
+addBloodUnit()
+
+updateQuantity()
+
+checkAvailability()
+
+removeExpiredBlood()
+
+7. BloodRequest
+
+Attributes:
+
+requestId
+
+bloodGroup
+
+quantity
+
+requestType
+
+requestStatus
+
+requestDate
+
+Methods:
+
+submitRequest()
+
+updateRequestStatus()
+
+cancelRequest()
+
+8. Notification
+
+Attributes:
+
+notificationId
+
+message
+
+notificationDate
+
+recipient
+
+Methods:
+
+sendNotification()
+
+generateAlert()
+
+9. Report
+
+Attributes:
+
+reportId
+
+reportType
+
+generatedDate
+
+Methods:
+
+generateDonorReport()
+
+generateInventoryReport()
+
+generateRequestReport()
+
+| Class Name      | Key Attributes          | Key Methods                               |
+| --------------- | ----------------------- | ----------------------------------------- |
+| User            | userId, username, role  | login(), logout()                         |
+| Administrator   | adminId                 | approveBloodRequest(), generateReport()   |
+| HospitalStaff   | staffId, hospitalName   | requestBlood(), searchBloodAvailability() |
+| AuthorizedStaff | staffId                 | updateInventory(), addBloodUnits()        |
+| Donor           | donorId, bloodGroup     | checkEligibility(), viewDonationHistory() |
+| BloodInventory  | inventoryId, quantity   | checkAvailability(), updateQuantity()     |
+| BloodRequest    | requestId, status       | submitRequest(), updateRequestStatus()    |
+| Notification    | notificationId, message | sendNotification()                        |
+| Report          | reportId, reportType    | generateReport()                          |
