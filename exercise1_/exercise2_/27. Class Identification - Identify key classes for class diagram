@@ -1,0 +1,188 @@
+Identified Key Classes
+1. User
+
+Description:
+Represents a generic system user. This is a base class for different user roles.
+
+Key Attributes:
+
+userId
+
+username
+
+password
+
+role
+
+Key Responsibilities:
+
+Authenticate user
+
+Manage user roles
+
+2. Administrator
+
+Description:
+Represents the blood bank administrator who manages the system.
+
+Inheritance:
+
+Inherits from User
+
+Key Responsibilities:
+
+Manage donors
+
+Approve or reject blood requests
+
+Generate reports
+
+3. HospitalStaff
+
+Description:
+Represents hospital personnel who request blood.
+
+Inheritance:
+
+Inherits from User
+
+Key Responsibilities:
+
+Search blood availability
+
+Request blood
+
+4. AuthorizedStaff
+
+Description:
+Represents staff responsible for daily inventory operations.
+
+Inheritance:
+
+Inherits from User
+
+Key Responsibilities:
+
+Update donor details
+
+Manage blood inventory
+
+5. Donor
+
+Description:
+Represents a blood donor registered in the system.
+
+Key Attributes:
+
+donorId
+
+name
+
+bloodGroup
+
+contactDetails
+
+lastDonationDate
+
+eligibilityStatus
+
+Key Responsibilities:
+
+Provide donation details
+
+View donation history
+
+6. BloodInventory
+
+Description:
+Represents blood stock details maintained by the blood bank.
+
+Key Attributes:
+
+inventoryId
+
+bloodGroup
+
+quantity
+
+expiryDate
+
+Key Responsibilities:
+
+Track available blood units
+
+Monitor expiration
+
+7. BloodRequest
+
+Description:
+Represents a request for blood made by hospitals.
+
+Key Attributes:
+
+requestId
+
+bloodGroup
+
+quantity
+
+requestType (Emergency/Normal)
+
+status
+
+Key Responsibilities:
+
+Submit blood request
+
+Track request status
+
+8. Notification
+
+Description:
+Represents alerts and messages sent by the system.
+
+Key Attributes:
+
+notificationId
+
+message
+
+date
+
+recipient
+
+Key Responsibilities:
+
+Send alerts to users
+
+Notify donors and staff
+
+9. Report
+
+Description:
+Represents system-generated reports.
+
+Key Attributes:
+
+reportId
+
+reportType
+
+generatedDate
+
+Key Responsibilities:
+
+Generate donor and inventory reports
+
+
+| Class Name      | Type          |
+| --------------- | ------------- |
+| User            | Base Class    |
+| Administrator   | Derived Class |
+| HospitalStaff   | Derived Class |
+| AuthorizedStaff | Derived Class |
+| Donor           | Entity Class  |
+| BloodInventory  | Entity Class  |
+| BloodRequest    | Entity Class  |
+| Notification    | Control Class |
+| Report          | Control Class |
