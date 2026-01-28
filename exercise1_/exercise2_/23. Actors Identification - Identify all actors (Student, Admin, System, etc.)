@@ -1,0 +1,47 @@
+Objective
+
+To identify all the actors who interact with the Blood Bank Management System (BBMS) either directly or indirectly.
+
+Identified Actors
+1. Blood Bank Administrator
+
+Description:
+The Blood Bank Administrator is the primary actor responsible for managing the overall system. This actor controls donor records, blood inventory, user accounts, blood request approvals, and report generation.
+
+Type: Primary Actor
+
+2. Hospital Staff
+
+Description:
+Hospital Staff interact with the system to check blood availability and submit blood requests for patients during emergencies or scheduled treatments.
+
+Type: Primary Actor
+
+3. Authorized Staff
+
+Description:
+Authorized Staff assist in daily operations such as updating donor details, adding blood units, and maintaining inventory records.
+
+Type: Primary Actor
+
+4. Blood Donor
+
+Description:
+The Blood Donor registers in the system to donate blood and receives notifications regarding donation eligibility and emergency requirements.
+
+Type: Primary Actor
+
+5. System (Blood Bank Management System)
+
+Description:
+The system itself acts as a secondary actor by automatically validating data, generating alerts, managing authentication, and maintaining records.
+
+Type: Secondary Actor
+
+| Actor                    | Role                                 | Actor Type |
+| ------------------------ | ------------------------------------ | ---------- |
+| Blood Bank Administrator | System management and control        | Primary    |
+| Hospital Staff           | Blood request and availability check | Primary    |
+| Authorized Staff         | Inventory and donor updates          | Primary    |
+| Blood Donor              | Donation and notifications           | Primary    |
+| System                   | Automation and validation            | Secondary  |
