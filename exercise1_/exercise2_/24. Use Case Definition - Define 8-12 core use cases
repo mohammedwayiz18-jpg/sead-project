@@ -1,0 +1,12 @@
+| Use Case ID | Use Case Name                  | Primary Actor  |
+| ----------- | ------------------------------ | -------------- |
+| UC-01       | User Login                     | All Users      |
+| UC-02       | Manage User Accounts           | Administrator  |
+| UC-03       | Register Blood Donor           | Administrator  |
+| UC-04       | Update Donor Information       | Admin, Staff   |
+| UC-05       | Manage Blood Inventory         | Admin, Staff   |
+| UC-06       | Search Blood Availability      | Hospital Staff |
+| UC-07       | Request Blood                  | Hospital Staff |
+| UC-08       | Approve / Reject Blood Request | Administrator  |
+| UC-09       | Generate Reports               | Administrator  |
+| UC-10       | Send Notifications             | System / Admin |
