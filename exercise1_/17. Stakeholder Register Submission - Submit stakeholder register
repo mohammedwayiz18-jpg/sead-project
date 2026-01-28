@@ -1,0 +1,11 @@
+| Stakeholder ID | Stakeholder Name / Group       | Category  | Role / Responsibility                        | Interest                            | Influence | Communication Method        |
+| -------------- | ------------------------------ | --------- | -------------------------------------------- | ----------------------------------- | --------- | --------------------------- |
+| SR-01          | Blood Bank Administrators      | Primary   | Manage donors, inventory, and blood requests | Accurate data, efficient operations | High      | Meetings, System Reports    |
+| SR-02          | Hospital Staff                 | Primary   | Request blood and check availability         | Quick access to required blood      | High      | System Notifications, Email |
+| SR-03          | Authorized Staff               | Primary   | Update inventory and donor records           | Easy system usage, accuracy         | Medium    | Meetings, Web Portal        |
+| SR-04          | Blood Donors                   | Primary   | Donate blood and receive alerts              | Timely notifications, transparency  | Medium    | Email, SMS, Portal          |
+| SR-05          | Patients                       | Secondary | Receive blood during treatment               | Availability of safe blood          | Medium    | Indirect (via hospitals)    |
+| SR-06          | Healthcare Organizations       | Secondary | Coordinate blood supply                      | Operational efficiency              | Medium    | Reports, Meetings           |
+| SR-07          | Government / Regulatory Bodies | Secondary | Monitor compliance and safety                | Legal and safety compliance         | Low       | Documentation, Audits       |
+| SR-08          | Project Guide / Faculty        | Internal  | Guide, review, and evaluate project          | Successful completion               | Low       | Reviews, Presentations      |
+| SR-09          | Development Team               | Internal  | Design, develop, test system                 | System quality and stability        | Medium    | Meetings, Version Control   |
