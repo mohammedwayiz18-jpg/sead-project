@@ -1,0 +1,80 @@
+Objective
+
+To create a well-organized project structure in the CASE tool for modeling and managing UML diagrams of the Blood Bank Management System.
+
+CASE Tool Used
+
+StarUML
+
+Project Structure Description
+
+A structured project hierarchy was created in StarUML to organize all UML diagrams related to the system. This structure ensures clarity, easy navigation, and effective collaboration among team members.
+
+Project Structure in StarUML
+Root Project
+
+Blood_Bank_Management_System
+
+1. Model Layer
+
+Use Case Model
+
+Administrator Use Case Diagram
+
+Hospital Staff Use Case Diagram
+
+Authorized Staff Use Case Diagram
+
+Blood Donor Use Case Diagram
+
+Structural Model
+
+Class Diagram
+
+Entity Relationship Diagram (optional)
+
+Behavioral Model
+
+Sequence Diagrams
+
+Activity Diagrams (optional)
+
+2. Diagram Organization
+
+Each diagram is named clearly based on its functionality
+
+Diagrams are grouped logically under appropriate model sections
+
+Naming conventions are followed for consistency
+
+Example:
+
+UC_Admin_BBMS
+
+UC_HospitalStaff_BBMS
+
+ClassDiagram_BBMS
+
+Sequence_BloodRequest
+
+3. Access and Maintenance
+
+The project structure is maintained within a single StarUML project file
+
+Changes are reviewed before finalizing
+
+Only approved diagrams are included in documentation
+
+Benefits of Structured Project Organization
+
+Improves clarity and understanding of system design
+
+Avoids duplication and confusion
+
+Supports easy updates and maintenance
+
+Enhances team collaboration
+
+Conclusion
+
+The project structure was successfully created in the CASE tool, ensuring organized and systematic development of UML diagrams for the Blood Bank Management System.
