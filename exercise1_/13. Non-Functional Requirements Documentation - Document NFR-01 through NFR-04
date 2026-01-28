@@ -1,0 +1,49 @@
+NFR-01: Performance
+
+Description:
+The system shall provide fast and efficient responses to user actions.
+
+Acceptance Criteria:
+
+System response time shall be within 3 seconds for normal operations
+
+Multiple users can access the system simultaneously without performance degradation
+
+NFR-02: Security
+
+Description:
+The system shall ensure secure access and protect sensitive data.
+
+Acceptance Criteria:
+
+User authentication is mandatory for system access
+
+Passwords are stored securely
+
+Unauthorized access attempts are denied
+
+NFR-03: Usability
+
+Description:
+The system shall be easy to use for all categories of users.
+
+Acceptance Criteria:
+
+User interface is simple and intuitive
+
+Users can perform basic tasks without training
+
+Clear error messages are displayed
+
+NFR-04: Reliability & Availability
+
+Description:
+The system shall operate reliably with minimal downtime.
+
+Acceptance Criteria:
+
+System availability of at least 99% during operational hours
+
+Data is preserved during system failures
+
+System recovers without data loss
