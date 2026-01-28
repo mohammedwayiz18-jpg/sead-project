@@ -1,0 +1,21 @@
+| Term                                    | Description                                                                   |
+| --------------------------------------- | ----------------------------------------------------------------------------- |
+| **Blood Bank Management System (BBMS)** | A web-based system used to manage blood donors, inventory, and blood requests |
+| **Blood Donor**                         | A registered individual who voluntarily donates blood                         |
+| **Blood Inventory**                     | Records of available blood units categorized by blood group and quantity      |
+| **Blood Unit**                          | A single collected and stored unit of blood                                   |
+| **Blood Group**                         | Classification of blood such as A+, A−, B+, B−, O+, O−, AB+, AB−              |
+| **Administrator**                       | Authorized user responsible for managing the overall system                   |
+| **Hospital Staff**                      | Medical professionals who request blood for patients                          |
+| **Authorized Staff**                    | Personnel responsible for updating donor and inventory data                   |
+| **Blood Request**                       | A formal request for blood submitted by hospitals or authorized users         |
+| **Emergency Request**                   | High-priority blood request requiring immediate processing                    |
+| **Donor Eligibility**                   | Criteria determining whether a donor is allowed to donate blood               |
+| **Expiration Date**                     | Date after which stored blood is no longer safe for use                       |
+| **User Authentication**                 | Process of verifying user identity using login credentials                    |
+| **Role-Based Access Control**           | Restriction of system features based on user roles                            |
+| **Notification**                        | Alert or message sent to users regarding system events                        |
+| **SRS**                                 | Software Requirements Specification document                                  |
+| **UI (User Interface)**                 | Visual interface through which users interact with the system                 |
+| **DBMS**                                | Database Management System used to store project data                         |
+| **QA (Quality Assurance)**              | Process of ensuring system quality through testing                            |
