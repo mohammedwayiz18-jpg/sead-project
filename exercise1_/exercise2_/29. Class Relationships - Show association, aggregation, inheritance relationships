@@ -1,0 +1,10 @@
+| Relationship Type | Classes Involved             | Description                    |
+| ----------------- | ---------------------------- | ------------------------------ |
+| Inheritance       | Administrator → User         | Admin is a User                |
+| Inheritance       | HospitalStaff → User         | Hospital staff is a User       |
+| Inheritance       | AuthorizedStaff → User       | Staff is a User                |
+| Association       | HospitalStaff ↔ BloodRequest | Requests blood                 |
+| Association       | Administrator ↔ BloodRequest | Approves/rejects requests      |
+| Association       | User ↔ Notification          | Receives notifications         |
+| Aggregation       | BloodInventory ◇ BloodUnit   | Inventory contains blood units |
+| Aggregation       | Report ◇ System Data         | Reports aggregate system data  |
