@@ -1,0 +1,25 @@
+Project Title
+
+Blood Bank Management System
+
+Problem Statement
+
+Blood banks play a vital role in the healthcare system by ensuring the availability of safe blood for patients during emergencies, surgeries, and routine treatments. However, many blood banks still rely on manual record-keeping or outdated systems to manage donor information, blood inventory, and blood requests. These traditional methods often result in inaccurate data, delayed response times, poor tracking of blood stock and expiration dates, and increased blood wastage. In emergency situations, the lack of real-time information can lead to critical delays and unavailability of required blood groups, putting patients’ lives at risk.
+
+Proposed Solution
+
+The proposed Blood Bank Management System is a centralized, web-based application that digitally manages donor records, blood inventory, and blood requests in real time. The system enables efficient donor registration, accurate tracking of blood stock by blood group and expiry date, and quick allocation of blood during emergencies. Automation and centralized data storage help reduce manual errors, improve response time, minimize wastage, and enhance coordination between blood banks, donors, and hospitals.
+
+Target Users
+
+Blood Bank Administrators
+
+Hospital Staff and Medical Professionals
+
+Blood Donors
+
+Healthcare Organizations and Emergency Services
+
+Value Proposition
+
+The Blood Bank Management System provides a reliable and efficient platform that improves accuracy, transparency, and speed in blood bank operations. By reducing manual effort and enabling real-time monitoring, the system helps save time, minimize blood wastage, ensure timely availability of blood, and ultimately support better patient care and healthcare outcomes.
