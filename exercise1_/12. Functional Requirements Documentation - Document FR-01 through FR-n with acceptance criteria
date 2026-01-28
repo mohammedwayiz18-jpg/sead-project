@@ -1,0 +1,103 @@
+FR-01: User Authentication
+
+Description:
+The system shall allow authorized users to log in using valid credentials.
+
+Acceptance Criteria:
+
+User must enter a valid username and password
+
+System grants access only to authorized users
+
+Invalid credentials display an error message
+
+FR-02: Role-Based Access Control
+
+Description:
+The system shall restrict access to features based on user roles.
+
+Acceptance Criteria:
+
+Admin can access all system features
+
+Staff can access only assigned modules
+
+Unauthorized access attempts are blocked
+
+FR-03: Donor Registration
+
+Description:
+The system shall allow administrators to register new blood donors.
+
+Acceptance Criteria:
+
+Mandatory donor details must be entered
+
+System stores donor data successfully
+
+Duplicate donor entries are prevented
+
+FR-04: Donor Information Management
+
+Description:
+The system shall allow updating and viewing donor information.
+
+Acceptance Criteria:
+
+Admin can edit donor details
+
+Updated data is reflected immediately
+
+Deleted records are removed securely
+
+FR-05: Blood Inventory Management
+
+Description:
+The system shall maintain real-time blood stock details.
+
+Acceptance Criteria:
+
+Blood units are updated after each donation
+
+Stock is categorized by blood group
+
+Expired blood units are flagged
+
+FR-06: Blood Request Processing
+
+Description:
+The system shall allow hospitals or authorized users to request blood.
+
+Acceptance Criteria:
+
+Requests can be submitted with required details
+
+Requests are approved or rejected based on availability
+
+Emergency requests are prioritized
+
+FR-07: Search & Reporting
+
+Description:
+The system shall allow users to search blood availability and generate reports.
+
+Acceptance Criteria:
+
+Users can search by blood group
+
+Reports show accurate inventory data
+
+Reports can be viewed anytime
+
+FR-08: Notification & Alerts
+
+Description:
+The system shall notify users about important events.
+
+Acceptance Criteria:
+
+Alerts for low blood stock are generated
+
+Donors receive notifications when required
+
+Expiry alerts are displayed on time
