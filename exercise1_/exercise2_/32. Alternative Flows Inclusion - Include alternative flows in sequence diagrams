@@ -1,0 +1,90 @@
+Alternative Flows Identified
+1. Blood Request – Blood Not Available
+
+Primary Flow:
+Blood request is approved when required blood group is available.
+
+Alternative Flow:
+
+Hospital/Patient submits blood request.
+
+Controller checks availability in Inventory.
+
+Inventory returns blood not available.
+
+Controller rejects the request.
+
+UI displays “Blood Not Available” message to requester.
+
+📌 This alternative flow is represented using an alt frame in the sequence diagram.
+
+2. Donor Registration – Invalid Details
+
+Primary Flow:
+Donor details are validated and stored successfully.
+
+Alternative Flow:
+
+Donor submits registration details.
+
+Controller validates information.
+
+Validation fails due to incomplete/invalid data.
+
+Controller sends error response to UI.
+
+UI prompts Donor to correct details.
+
+📌 Prevents incorrect data from entering the system.
+
+3. Blood Donation – Donor Not Eligible
+
+Primary Flow:
+Eligible donor’s blood is recorded and inventory is updated.
+
+Alternative Flow:
+
+Staff enters donation details.
+
+Controller verifies donor eligibility.
+
+Donor fails eligibility criteria (age, health, last donation date).
+
+Donation process is stopped.
+
+UI displays “Donor Not Eligible” message.
+
+📌 Ensures donor safety and regulatory compliance.
+
+4. Report Generation – No Data Available
+
+Primary Flow:
+Report is generated successfully.
+
+Alternative Flow:
+
+Admin requests report.
+
+Controller fetches data from Database.
+
+Database returns empty dataset.
+
+Controller sends notification to UI.
+
+UI displays “No Records Found” message.
+
+📌 Avoids generating empty or misleading reports.
+
+Representation in Sequence Diagram
+
+Alternative flows are shown using UML alt combined fragments.
+
+Each alternative path is labeled with conditions such as:
+
+[Blood Available]
+
+[Blood Not Available]
+
+[Valid Data]
+
+[Invalid Data]
