@@ -1,0 +1,112 @@
+Activity Diagram 1: Blood Donation Process
+Purpose
+
+This activity diagram represents the workflow involved when a donor donates blood and the inventory is updated.
+
+Activities Flow
+
+Start
+
+Donor arrives at blood bank
+
+Staff verifies donor identity
+
+Check donor eligibility
+
+Age
+
+Health condition
+
+Last donation date
+
+Decision
+
+If donor eligible → proceed
+
+If donor not eligible → stop process
+
+Record blood donation
+
+Update blood inventory
+
+Store donation details in database
+
+Display confirmation message
+
+End
+
+
+Start
+  ↓
+Verify Donor Details
+  ↓
+Check Eligibility
+  ↓
+[Eligible?]
+   ├─ No → Display Not Eligible → End
+   └─ Yes
+        ↓
+Record Donation
+  ↓
+Update Inventory
+  ↓
+Save to Database
+  ↓
+Confirmation Message
+  ↓
+End
+
+Activity Diagram 2: Blood Request Processing
+Purpose
+
+This activity diagram shows how a blood request from a hospital or patient is handled.
+
+Activities Flow
+
+Start
+
+Hospital/Patient submits blood request
+
+System receives request
+
+Check blood availability
+
+Decision
+
+If blood available
+
+If blood not available
+
+If available:
+
+Approve request
+
+Update inventory
+
+Notify requester
+
+If not available:
+
+Reject request
+
+Notify requester
+
+End
+
+Start
+  ↓
+Submit Blood Request
+  ↓
+Check Availability
+  ↓
+[Blood Available?]
+   ├─ No → Reject Request → Notify User → End
+   └─ Yes
+        ↓
+Approve Request
+  ↓
+Update Inventory
+  ↓
+Notify User
+  ↓
+End
