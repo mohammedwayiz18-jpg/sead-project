@@ -1,0 +1,103 @@
+Major Components Identified
+1. User Interface (UI) Component
+
+Responsibilities:
+
+Donor registration
+
+Blood request submission
+
+Inventory viewing
+
+Report access
+
+Users:
+
+Donor
+
+Hospital/Patient
+
+Admin/Staff
+
+📌 Acts as the interaction layer between users and the system.
+
+2. Authentication & Authorization Component
+
+Responsibilities:
+
+User login
+
+Role-based access control (Admin, Staff, Donor)
+
+Session management
+
+📌 Ensures system security and controlled access.
+
+3. Blood Bank Management Component (Business Logic)
+
+Responsibilities:
+
+Donor management
+
+Blood donation processing
+
+Blood request handling
+
+Inventory coordination
+
+📌 Core processing unit of the system.
+
+4. Inventory Management Component
+
+Responsibilities:
+
+Blood stock tracking
+
+Blood group categorization
+
+Expiry date monitoring
+
+Stock updates
+
+📌 Ensures real-time and accurate inventory data.
+
+5. Reporting Component
+
+Responsibilities:
+
+Generate daily/monthly reports
+
+Donor statistics
+
+Blood availability reports
+
+📌 Supports administrative decision-making.
+
+6. Database Component
+
+Responsibilities:
+
+Store donor records
+
+Store blood inventory details
+
+Store request and transaction data
+
+Maintain historical data
+
+📌 Provides persistent data storage.
+
+[User]
+   ↓
+[User Interface]
+   ↓
+[Authentication Component]
+   ↓
+[Blood Bank Management Component]
+   ↓
+[Inventory Management Component]
+   ↓
+[Database]
+
+[Blood Bank Management Component] ↔ [Reporting Component]
+[Reporting Component] ↔ [Database]
