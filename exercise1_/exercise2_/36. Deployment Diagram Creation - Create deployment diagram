@@ -1,0 +1,17 @@
+[Client Device]
+ (Web Browser)
+        |
+        | HTTP / HTTPS
+        v
+[Web Server]
+ (UI + Authentication)
+        |
+        | API Calls
+        v
+[Application Server]
+ (Business Logic, Inventory, Reports)
+        |
+        | SQL Queries
+        v
+[Database Server]
+ (Donor, Blood, Requests DB)
