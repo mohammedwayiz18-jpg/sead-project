@@ -1,0 +1,156 @@
+Workflow 1: Blood Donation and Inventory Management
+Actors Involved
+
+Donor
+
+Staff
+
+System
+
+Database
+
+Workflow Description
+
+Donor arrives at the blood bank.
+
+Staff collects donor details and health information.
+
+Decision Point: Check donor eligibility.
+
+If not eligible, the process stops and donor is informed.
+
+If eligible, the process continues.
+
+Blood donation is performed.
+
+Parallel Activities Begin:
+
+Blood sample testing.
+
+Donation details entry into the system.
+
+After testing:
+
+If blood is safe, it is approved for storage.
+
+If blood is unsafe, it is discarded.
+
+Approved blood units are added to inventory.
+
+Inventory details are updated in the database.
+
+Confirmation is generated.
+
+Workflow ends.
+
+Decision Points
+
+Donor eligibility check
+
+Blood safety test result
+
+Parallel Activities
+
+Medical testing
+
+System data entry
+
+Workflow 2: Blood Request and Allocation Process
+Actors Involved
+
+Hospital / Patient
+
+System
+
+Inventory
+
+Admin / Staff
+
+Workflow Description
+
+Hospital/Patient submits blood request.
+
+System receives and validates request.
+
+Decision Point: Check blood availability.
+
+If available, proceed to allocation.
+
+If not available, notify requester and stop.
+
+Parallel Activities Begin (if available):
+
+Inventory stock update.
+
+Request approval and documentation.
+
+Blood unit is allocated.
+
+Notification is sent to hospital.
+
+Request details are stored in database.
+
+Workflow ends.
+
+Decision Points
+
+Blood availability
+
+Request approval
+
+Parallel Activities
+
+Inventory update
+
+Notification generation
+
+Workflow 3: Emergency Blood Request Handling
+Actors Involved
+
+Emergency Staff
+
+System
+
+Inventory
+
+Admin
+
+Workflow Description
+
+Emergency request is raised.
+
+System marks request as high priority.
+
+Decision Point: Immediate stock availability.
+
+If available, allocate blood immediately.
+
+If not available, trigger donor search.
+
+Parallel Activities Begin:
+
+Notify nearby donors.
+
+Alert blood bank staff.
+
+Donor response is monitored.
+
+Blood is collected and tested.
+
+Inventory is updated.
+
+Emergency request is fulfilled.
+
+Workflow ends.
+
+Decision Points
+
+Stock availability
+
+Donor response
+
+Parallel Activities
+
+Donor notifications
+
+Staff alerts
