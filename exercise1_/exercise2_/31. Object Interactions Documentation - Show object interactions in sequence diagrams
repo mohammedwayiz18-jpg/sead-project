@@ -1,0 +1,76 @@
+Key Objects Involved
+
+User (Donor / Hospital / Admin / Staff)
+
+User Interface (UI)
+
+Controller
+
+Inventory
+
+Database
+
+Object Interactions Explained
+1. Donor Registration Interaction
+
+The Donor initiates the interaction by submitting registration details through the UI.
+
+The UI forwards the data to the Controller.
+
+The Controller validates the donor information.
+
+After validation, the Controller interacts with the Database to store donor details.
+
+The Database returns a success response.
+
+The Controller sends confirmation back to the UI, which is displayed to the Donor.
+
+✅ This interaction ensures secure and accurate donor registration.
+
+2. Blood Donation & Inventory Update Interaction
+
+Staff enters donation details via the UI.
+
+The UI sends donation data to the Controller.
+
+The Controller verifies donor eligibility.
+
+The Controller interacts with the Inventory object to update blood stock.
+
+The Inventory updates the records in the Database.
+
+Confirmation is returned to the Controller and displayed on the UI.
+
+✅ This interaction maintains real-time blood inventory accuracy.
+
+3. Blood Request Handling Interaction
+
+Hospital/Patient submits a blood request using the UI.
+
+The UI forwards the request to the Controller.
+
+The Controller interacts with the Inventory to check availability.
+
+The Inventory queries the Database.
+
+Based on availability:
+
+If blood is available, the request is approved and inventory is updated.
+
+If blood is not available, a rejection response is generated.
+
+The result is communicated back to the requester through the UI.
+
+✅ This interaction enables quick decision-making during emergencies.
+
+4. Report Generation Interaction
+
+Admin requests reports via the UI.
+
+The UI sends the request to the Controller.
+
+The Controller fetches required data from the Database.
+
+The Database returns donor and stock data.
+
+The Controller generates the report and sends it to the UI for display or download.
