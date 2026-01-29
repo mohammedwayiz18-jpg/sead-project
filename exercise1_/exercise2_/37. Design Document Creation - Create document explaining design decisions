@@ -1,0 +1,144 @@
+1. Architectural Design Decision
+Chosen Architecture: Layered Architecture
+
+The system follows a layered architecture consisting of:
+
+Presentation Layer (User Interface)
+
+Business Logic Layer
+
+Data Access Layer (Database)
+
+Reason for Selection
+
+Ensures separation of concerns
+
+Makes the system easy to maintain and extend
+
+Supports modular development and testing
+
+2. Component-Based Design
+
+The system is divided into independent components:
+
+Authentication Component
+
+Blood Bank Management Component
+
+Inventory Management Component
+
+Reporting Component
+
+Justification
+
+Improves reusability
+
+Enables parallel development by team members
+
+Reduces system complexity
+
+3. Database Design Decision
+Chosen Database Type: Relational Database
+
+Key tables include:
+
+Donor
+
+Blood Inventory
+
+Blood Requests
+
+User Accounts
+
+Reason for Selection
+
+Ensures data consistency and integrity
+
+Supports structured healthcare data
+
+Easy to query and report
+
+4. Security Design Decisions
+Implemented Measures
+
+Role-based access control (Admin, Staff, Donor)
+
+Secure authentication and authorization
+
+Restricted database access
+
+Reason
+
+Protect sensitive donor and patient data
+
+Prevent unauthorized system usage
+
+Comply with healthcare data handling norms
+
+5. Decision Handling & Exception Management
+Design Choices
+
+Use of alternative flows in sequence diagrams
+
+Validation at both UI and controller levels
+
+Graceful error messages
+
+Benefits
+
+Improves system reliability
+
+Enhances user experience
+
+Prevents incorrect data entry
+
+6. Scalability and Performance Considerations
+Design Approach
+
+Modular components
+
+Separate application and database servers
+
+Efficient inventory management
+
+Benefits
+
+Supports increasing number of users
+
+Handles emergency blood requests efficiently
+
+7. Usability Design Decisions
+Design Focus
+
+Simple and intuitive UI
+
+Minimal steps for critical actions
+
+Clear notifications and confirmations
+
+Reason
+
+Ensures ease of use for non-technical users
+
+Reduces operational errors
+
+8. Maintainability & Future Enhancements
+Design Considerations
+
+Modular architecture
+
+Clear documentation
+
+Standard UML diagrams
+
+Future Scope
+
+Mobile application integration
+
+National-level blood bank integration
+
+Automated donor notifications
+
+Conclusion
+
+The design decisions made for the Blood Bank Management System ensure a secure, scalable, and user-friendly system. The architecture and components were carefully chosen to support efficient blood bank operations, reduce manual errors, and provide timely support during emergencies.
